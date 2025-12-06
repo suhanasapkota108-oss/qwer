@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title
+        </head>
+    <body>
+        <form enctype="multipart/form-data">
+           Country: <input type="text" name="countrylist" list="countrylist">
+            <datalist id="countrylist">
+                <option>NEpal</option>
+                <option>Bhutan</option>
+                <option>SriLanka</option>
+            </datalist>
+            <hr>
+            Food:<select name="food" multiple size="3">
+                <optgroup label="Fruits">
+                    <option>Apple</option>
+                    <option>Banana</option>
+                <optgroup label="VEG">
+                     <option> Salad</option>
+                     <option> DAL</option>
+                </optgroup>
+            </select>
+            <hr>
+            value & readonly <input type="text" name="n1" value="SUHANA" readonly>
+            <hr>
+            Placeholder :<input type="text" name="n2" value="SUHANA">
+            <hr>
+            hidden:<input type="hidden" name="n3" value="suj">
+            <hr>
+            Required<input type="text" name="n4" required><hr>
+            Autocomplete <input type="text" name="email"><hr>
+            Autofocus: <input type="text" name="n6" autofocus><hr>
+             File(photo):<input type="file" name="photo" accept="image/*">
+             <hr>
+             <input type="image" name="image" width="30" src="https://th.bing.com/th/id/OIP.W25T6-Ygdx8xi_D6bYOhnQHaES?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3">
+             <input type="reset">
+             <input type="submit" name="submit">
+            <button> SEND </button>
+        </form>
+        </body>
+        </html>
